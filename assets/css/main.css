@@ -2578,9 +2578,31 @@ section,
   font-size: 14px;
 }
 
-.form-select-sm{
-width: 13rem;
-margin-left: 8px;
+.prueba{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 90%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+
+.section-title2 p {
+  color: var(--heading-color);
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: var(--heading-font);
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .prueba{
@@ -2588,18 +2610,4 @@ margin-left: 8px;
   border-bottom: 1px solid #0391ef; 
   outline: none; 
   position: relative;
-}
-
-.flight{
-  font-weight: bold;
-}
-
-.form-check {
-  display: inline-block; 
-}
-
-.fondo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
