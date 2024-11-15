@@ -2632,3 +2632,24 @@ form {
 .form-check {
   display: inline-block;
 }
+
+.input2{
+  display: inline-block;
+  margin-left: 15px;
+  width: 10%;
+}
+
+.card-body {
+  height: 200px; 
+  overflow-y: auto; 
+}
+
+.card-header{
+  background-color: #2a2c39;
+}
+
+.buttondk{
+  width: 30%;
+  height: 120%;
+  font-size: 20px;
+}
