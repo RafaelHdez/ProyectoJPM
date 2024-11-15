@@ -1992,6 +1992,11 @@ section,
   z-index: 0;
 }
 
+.p-center {
+  text-align: center;
+  margin: 10px;
+  font-weight: 500;
+}
 
 .center {
   padding: 0px 145px;
