@@ -201,4 +201,18 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  const videos = [
+    'assets/img/video1.mp4',
+    'assets/img/video2.mp4',
+    'assets/img/video3.mp4'
+  ];
+  
+  const randomVideo = videos[Math.floor(Math.random() * videos.length)];
+  
+  const videoSource = document.getElementById('video-source');
+  
+  videoSource.src = randomVideo;
+  
+  document.getElementById('video-fondo').load();
+
 })();
